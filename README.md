@@ -1,11 +1,11 @@
-About r-gpfit
-=============
+About r-gpfit-feedstock
+=======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-gpfit-feedstock/blob/main/LICENSE.txt)
 
 Home: https://CRAN.R-project.org/package=GPfit
 
 Package license: GPL-2
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-gpfit-feedstock/blob/main/LICENSE.txt)
 
 Summary: A computationally stable approach of fitting a Gaussian Process (GP) model to a deterministic simulator.
 
