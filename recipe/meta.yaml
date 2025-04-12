@@ -1,4 +1,4 @@
-{% set version = '1.0-8' %}
+{% set version = "1.0-9" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/GPfit_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/GPfit/GPfit_{{ version }}.tar.gz
-  sha256: 7e4dfc28c49cad67afbd9c018255234c57a4baadc10a412ee660f72da28fb716
+  sha256: 6307704410bee389336dfead0c2f777942b35c042c0d6c6bd8cd3cff27a5683c
 
 build:
-  number: 4
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
@@ -38,8 +38,7 @@ test:
 about:
   home: https://CRAN.R-project.org/package=GPfit
   license: GPL-2
-  summary: A computationally stable approach of fitting a Gaussian Process (GP) model to a deterministic
-    simulator.
+  summary: A computationally stable approach of fitting a Gaussian Process (GP) model to a deterministic simulator.
   license_family: GPL2
   license_file:
     - '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-2'
